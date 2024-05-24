@@ -5,10 +5,19 @@ body{
     font-family: sans-serif;
 }
 .heading{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
     color: white;
     margin-top: 4%;
     font-size: 60px;
+}
+.heading img{
+    border:2px solid black;
+    border-radius: 50%;
+    margin-left: 1%;
+    width: 60px;
+    height: 60px;
 }
 .maindiv{
     margin-left: 22%;
@@ -62,6 +71,10 @@ body{
         font-size: 40px;
         margin-top: 10%;
     }
+    .heading img{
+        width: 40px;
+        height: 40px;
+    }
     .maindiv{
         margin:  0 auto;
         width: 40%;
@@ -86,6 +99,10 @@ body{
     .heading{
         font-size: 30px;
         margin-top: 20%;
+    }
+    .heading img{
+        width: 30px;
+        height: 30px;
     }
     .numbersdiv h1{
         font-size: 25px;

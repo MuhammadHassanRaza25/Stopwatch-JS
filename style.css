@@ -1,0 +1,128 @@
+body{
+    background-color:gray;
+    background-size:cover;
+    background-position-y: 30%;
+    font-family: sans-serif;
+}
+.heading{
+    text-align: center;
+    color: white;
+    margin-top: 4%;
+    font-size: 60px;
+}
+.maindiv{
+    margin-left: 22%;
+    text-align: center;
+    width: 50%;
+    margin-top: 0%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 0px 5px black;
+}
+.numbersdiv{
+    box-shadow: 0px 0px 5px black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.numbersdiv h1{
+    font-size: 55px;
+    letter-spacing: 7px;
+}
+.btndiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btndiv button{
+    background-color: black;
+    color: aqua;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 10%;
+    width: 25%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btndiv button:hover{
+    background-color: aqua;
+    color: black;
+    transition: all 0.5s;
+}
+#copyright{
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+}
+
+@media (max-width:1045px) {
+    .heading{
+        font-size: 40px;
+        margin-top: 10%;
+    }
+    .maindiv{
+        margin:  0 auto;
+        width: 40%;
+    }
+    .numbersdiv h1{
+        font-size: 28px;
+        letter-spacing: 3px;
+    }
+    #copyright{
+        font-size: 14px;
+    }
+}
+@media (max-width:820px) {
+    .heading{
+        margin-top: 20%;
+    }
+    .btndiv button{
+        font-size:12px;
+    }
+}
+@media (max-width:740px) {
+    .heading{
+        font-size: 30px;
+        margin-top: 20%;
+    }
+    .numbersdiv h1{
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .btndiv button{
+        padding: 10px;
+        font-size:15px;
+        width: 25%;
+    }
+}
+@media (max-width:603px) {
+    .heading{
+        margin-top: 25%;
+        margin-bottom: 5%;
+    }
+    .maindiv{
+        margin-left: 7%;
+        text-align: center;
+        width: 75%;
+        margin-top: 0%;
+        background-color: white;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0px 0px 5px black;
+    }
+    #copyright{
+        margin-top: 15%;
+    }
+}
+@media (max-width:400px){
+    .heading{
+        margin-top: 30%;
+        margin-bottom: 15%;
+    }
+    #copyright{
+        margin-top: 18%;
+        font-size: 12px;
+    }
+}

@@ -31,13 +31,15 @@ function pause() {
 }
 
 function reset() {
-    hour = 0
-    min = 0
-    sec = 0
-    document.getElementById('numbers').innerHTML = `${hour} : ${min} : ${sec}`
-    pause()
+    // hour = 0+'0'
+    // min = 0+'0'
+    // sec = 0+'0'
+    // document.getElementById('numbers').innerHTML = `${hour} : ${min} : ${sec}`
+    // pause()
+    location.reload()
 }
 
 function ops(){
-   alert("please don't dobble click ❗ \nnow refresh 🔄 \nand then click")
+  //  alert("please don't dobble click ❗ \nnow refresh 🔄 \nand then click")
+  location.reload()
 }
